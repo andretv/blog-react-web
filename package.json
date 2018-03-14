@@ -1,0 +1,31 @@
+{
+  "name": "blog-react-web",
+  "version": "1.0.0",
+  "description": "A simple webapp for a simple blog :)",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andretv/blog-react-web.git"
+  },
+  "author": "Andre Vaccari <andrevaccari95@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andretv/blog-react-web/issues"
+  },
+  "homepage": "https://github.com/andretv/blog-react-web#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-module-resolver": "^3.1.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.6.2"
+  }
+}
