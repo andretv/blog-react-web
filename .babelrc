@@ -5,6 +5,9 @@
   ],
   "plugins": [
     [
+      "transform-class-properties"
+    ],
+    [
       "module-resolver",
       {
         "root": [
@@ -12,8 +15,9 @@
         ],
         "alias": {
           "src": "./src",
-          "containers": "src/containers",
-          "components": "src/components"
+          "store": "./src/store",
+          "containers": "./src/containers",
+          "components": "./src/components"
         }
       }
     ]

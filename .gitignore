@@ -62,3 +62,9 @@ dist/
 
 # cache
 .cache/
+
+# env
+.env
+
+# MACOS
+.DS_Store
