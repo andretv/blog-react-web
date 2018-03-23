@@ -1,0 +1,35 @@
+.post {
+  margin-top: 30px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .05);
+  &-header {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+  }
+  &-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 3;
+    .post-title {
+      margin: 0.5em;
+      font-weight: bold;
+      font-size: 24px;
+    }
+    .post-author {
+      margin: 0 0.67em;
+      font-style: italic;
+    }
+  }
+  &-date {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  &-content {
+    padding: 10px;
+  }
+}
