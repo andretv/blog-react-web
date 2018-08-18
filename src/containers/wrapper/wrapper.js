@@ -10,6 +10,7 @@ const Wrapper = ({ children }) =>
     <Navbar>
       <NavbarItem exact label='feed' to='/' />
       <NavbarItem label='my posts' to='/my-posts' />
+      <NavbarItem label='write a post' to='/new-post' />
     </Navbar>
     <main className='main-content'>
       {children}

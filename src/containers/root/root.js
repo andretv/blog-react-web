@@ -13,6 +13,8 @@ const store = configureStore(initialState)
 // containers
 import Wrapper from 'containers/wrapper'
 import Feed from 'containers/feed'
+import MyPosts from 'containers/my-posts'
+import NewPost from 'containers/new-post'
 
 const Root = () =>
   <Provider store={store}>
@@ -20,7 +22,8 @@ const Root = () =>
       <Wrapper>
         <Switch>
           <Route exact path='/' component={Feed} />
-          <Route exact path='/my-posts' component={Feed} />
+          <Route exact path='/my-posts' component={MyPosts} />
+          <Route exact path='/new-post' component={NewPost} />
           <Redirect to='/' />
         </Switch>
       </Wrapper>

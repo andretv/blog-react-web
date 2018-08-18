@@ -1,0 +1,30 @@
+.text-field {
+  &-wrapper {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: relative;
+    height: 50px;
+    width: fit-content;
+    font-size: 16px;
+  }
+  &-label {
+    transition: all 0.2s ease-in-out;
+    position: absolute;
+    left: 7px;
+    bottom: 7px;
+    z-index: -1;
+    color: rgb(150, 150, 150);
+    &.active {
+      bottom: 30px;
+      color: rgb(0, 0, 0);
+    }
+  }
+  &-input {
+    padding: 7px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid rgb(0, 0, 0);
+  }
+}
